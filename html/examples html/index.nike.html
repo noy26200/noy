@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+
+
+ body{
+    height: 100%;
+    margin: 0px;
+ }
+
+
+/*תצוגה למעלה עם תמונת לוגו של האתר*/
+
+nav img{
+ float: right;
+ display: block;
+ margin: 0px;
+ height: 50px;
+ width: 50px;
+
+ }
+
+
+ ul{
+  list-style-type: none;
+  padding:0px;
+  overflow: hidden;
+  background-color: rgba(224, 205, 205, 0.575);
+  margin:auto;
+ }
+
+
+ li{
+    float: left;
+    height: 50px;
+    transition: background-color 0.5s ease-in-out;
+ }
+
+
+li:hover{
+    background-color: brown;
+}
+
+
+ li a{
+ display:inline-block;
+  color: rgba(58, 40, 40, 0.692);
+   padding: 0px 15px; 
+   padding-top: 15px;
+  text-decoration: none;
+  height: 100%;
+  vertical-align: middle;
+  transition: color 0.5s ease-in-out;
+ }
+
+
+ a:hover{
+    color: azure;
+ }
+
+/*תצוגה צדדית*/
+
+ .box ul{
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+ }
+
+
+ .box li a {
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+ }
+
+
+ .box a:hover{
+   background-color: antiquewhite;
+ }
+
+
+ /*תמונה שקופה עם כיתוב מעל*/
+ .box2{
+   position: relative;
+ }
+
+
+ .box2 img{
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+  position: relative;
+
+ }
+
+
+ .pimg p {
+ position: absolute;
+  bottom: 100px;
+  right: 16px;
+  font-size: 18px;
+ }
+
+ 
+
+
+    </style>
+</head>
+<body>
+
+
+    <nav>
+
+    <ul>
+        <img src="https://s3-symbol-logo.tradingview.com/nike--600.png" alt="nike">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+
+    <nav class="box">
+    <ul>
+      <li><a href="#news">Women</a></li><br>
+      <li><a href="#contact">Men</a></li><br>
+      <li><a href="#about">Kids</a></li><br>
+      <li><a href="#c">Colection</a></li><br>
+      <li><a href="#o">OUTLET</a></li><br>
+    </ul>
+    </nav>
+
+    <div class="box2">
+      <img src="https://images.footlocker.com/content/dam/final/footlocker/site/backpages/20201221-fl-nike-brand-page-m-asp.jpg" alt="nikepic">
+    </div>
+
+
+    <div class="pimg">
+      <h1>helow</h1>
+     <p> Buy 2 items get 30% off *</p>
+
+     
+     </div>
+    </div>
+   </body>
+   </html>
